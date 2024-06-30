@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    h2 {
+        @apply text-2xl my-2;
+    }
+    h3 {
+        @apply text-xl italic my-2;
+    }
+}
+
+#banner{
+    background-image: url("../assets/contact-lenses-for-swimming-banner.jpg");
+}
+#text-shadow-h1{
+    text-shadow: 2px 2px 4px #000000;
+}
+.table-cell {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0.75rem;
+}
+
+.amount {
+    width: 16rem;
+}
+
+.size {
+    width: 12rem;
+}
